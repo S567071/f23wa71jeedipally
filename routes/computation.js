@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET computation listing. */
 router.get('/', function (req, res, next) {
-    randomValue = Math.random() * 10;
+    randamValue = Math.random() * 10;
     result = Math.log(randamValue);
 
     res.send(`Log function is appiled ${randamValue} value is ${result}`);
